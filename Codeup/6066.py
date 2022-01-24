@@ -1,19 +1,20 @@
-a, b, c = input().split()
-a = int(a)
-b = int(b)
-c = int(c)
+a, b, c = map(int, input().split())
 
-if a % 2 == 0 :
+if a % 2 == 0:
     print("even")
-else :
+else:
     print("odd")
 
-if b % 2 == 0 :
+if b % 2 == 0:
     print("even")
-else :
+else:
     print("odd")
 
-if c % 2 == 0 :
+if c % 2 == 0:
     print("even")
-else :
+else:
     print("odd")
+
+# num = map(int, input().split())
+# for n in num:
+#     print("even" if n % 2 == 0 else "odd")

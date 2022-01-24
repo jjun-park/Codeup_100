@@ -1,5 +1,5 @@
-a, b = input().split()
-a = int(a)
-b = int(b)
-c = (a if(a>=b) else b)
+a, b = map(int, input().split())
+c = (a if(a >= b) else b)
 print(int(c))
+# print(max(a, b))
+

@@ -1,3 +1,3 @@
-a, b = input().split()
+a, b = map(int, input().split())
 print(a)
 print(b)

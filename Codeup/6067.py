@@ -1,5 +1,4 @@
-n = input()
-n = int(n)
+n = int(input())
 
 if n < 0:
     if n % 2 == 0:

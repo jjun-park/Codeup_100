@@ -1,6 +1,4 @@
-n, m = input().rstrip().split()
-n = int(n)
-m = int(m)
+n, m = map(int, input().rstrip().split())
 
 for i in range(1, n+1):
     for j in range(1, m+1):

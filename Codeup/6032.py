@@ -1,3 +1,2 @@
-n = input()
-a = int(n)
-print(-a)
+n = int(input())
+print(-n)

@@ -1,5 +1,4 @@
-f = input()
-f = float(f)
+f = float(input())
 print(f)
 print(f)
 print(f)

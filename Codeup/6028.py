@@ -1,3 +1,4 @@
-a = input()
-n = int(a)
-print('%X'%n)
+a = int(input())
+print('%X' % a)
+
+# print('%X' % int(input))

@@ -1,4 +1,2 @@
-a, b = input().split()
-n = int(a)
-m = int(b)
-print(n//m)
+a, b = map(int, input().split())
+print(a // b)
