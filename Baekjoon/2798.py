@@ -1,19 +1,3 @@
-# from itertools import combinations
-# from sys import stdin
-# input = stdin.readline
-#
-# N, M = map(int, input().split())
-# cards = list(map(int, input().split()))
-# minus = int(1e9)    # 무한대수
-#
-# for a, b, c in combinations(cards, 3):  # 리스트, 추출할 수
-#     temp = a + b + c
-#     if temp <= M and abs(M - temp) < minus:
-#         minus = abs(M - temp)  # minus 갱신
-#
-# print(M - minus)
-
-
 from itertools import combinations
 from sys import stdin
 input = stdin.readline
