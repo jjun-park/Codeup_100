@@ -19,3 +19,5 @@ for i in range(N):
         break
 
 print("Eyfa" if Check else "Not Eyfa")      # True값 "if" 조건문 "else" False값
+
+# import sys를 썼으면 input과 rstrip은 항상 같이 따라가야 함
