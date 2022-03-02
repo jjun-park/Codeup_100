@@ -1,5 +1,6 @@
-# 이 문제는 import sys 하면 안됨
-# 출력값이 잘못 나옴 (예제 입출력 3번 참고)
+import sys
+
+input = sys.stdin.readline
 
 N, M = map(int, input().split())
 
