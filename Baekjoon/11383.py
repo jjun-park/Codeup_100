@@ -1,11 +1,10 @@
-import sys
-
-input = sys.stdin.readline
+# 이 문제는 import sys 하면 안됨
+# 출력값이 잘못 나옴 (예제 입출력 3번 참고)
 
 N, M = map(int, input().split())
 
-firImg = [input() for _ in range(N)]        # 돌돔 사진     # ABCDE
-secImg = [input() for _ in range(N)]        # 됾 사진      # AABBCCDDEE
+firImg = [input().rstrip() for _ in range(N)]        # 돌돔 사진     # ABCDE
+secImg = [input().rstrip() for _ in range(N)]        # 됾 사진      # AABBCCDDEE
 
 Check = True
 
