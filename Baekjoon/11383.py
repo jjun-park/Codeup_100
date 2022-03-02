@@ -15,7 +15,7 @@ for i in range(N):
         ref += j * 2
 
     if ref != secImg[i]:    # secImg 리스트의 0번째 값: AABBCCDDEE
-        checker = False
+        Check = False
         break
 
 print("Eyfa" if Check else "Not Eyfa")      # True값 "if" 조건문 "else" False값
