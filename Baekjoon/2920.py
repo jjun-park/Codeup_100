@@ -10,6 +10,6 @@ descending_list = [8, 7, 6, 5, 4, 3, 2, 1]
 if series == ascending_list:
     print("ascending")
 elif series == descending_list:
-    print("descending_list")
+    print("descending")
 else:
     print("mixed")
